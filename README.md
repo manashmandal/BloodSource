@@ -1,2 +1,2 @@
 # Blood Source
-RESTful Website based on MEAN Stack for blood donation purpose.
+Composite web app based on XAMP Stack for blood donation purpose
