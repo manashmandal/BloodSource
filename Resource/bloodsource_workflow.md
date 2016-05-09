@@ -18,18 +18,19 @@
 | Blood Group 	| District 	| Upazilla 	| Medial Select 	| No. of Bag 	| Search 	|
 |-------------	|----------	|----------	|---------------	|------------	|--------	|
 
-Name  ------    Address   ------    Availability   ------   Select (Max 5)
+Name  ------    Address   ------    Availability   ------   Mobile Number ------ verified ID?
 
 1. ...
 2. ...
 3. ...
+4. ...                                                      [Hidden number]
 
 
 ... `see more`
 
 ### Note
 ```
-(After selecting a name a pop up window will open. Contents: 1. Name?  2. Mobile number?)
+(After selecting hidden number link, a pop up window will open. Contents: 1. Name?  2. Mobile number?)
  Everybody is suggested to donate blood at only hospitals. Please do not make schedule to meet outside the hospitals
 Feedback: Email:
 	     Comments:
