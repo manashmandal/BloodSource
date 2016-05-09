@@ -15,7 +15,7 @@
 | Home 	| About us 	| Sign Up 	| Log in 	| Instructions 	| FAQ 	| Contact Us 	| Donate 	|
 |------	|----------	|---------	|--------	|--------------	|-----	|------------	|--------	|
 
-| Blood Group 	| District 	| Upazilla 	| Medial Select 	| No. of Bag 	| Search 	|
+| Blood Group 	| District 	| Upazilla 	| Medical Select 	| No. of Bag 	| Search 	|
 |-------------	|----------	|----------	|---------------	|------------	|--------	|
 
 Name  ------    Address   ------    Availability   ------   Mobile Number ------ verified ID?
