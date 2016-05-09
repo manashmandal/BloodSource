@@ -54,8 +54,8 @@ Facebook page, linked in, twitter, Share with facebook
 
 
 Organization sign up:
-*1.	Organization name:*
-2.	Contact no
+1.	Organization name:
+2.	Contact No.
 3.	Email
 4.	Address of organization:
 5.	Organization type: institutional or social? If institutional then name of the institution
