@@ -54,7 +54,7 @@ Facebook page, linked in, twitter, Share with facebook
 
 
 Organization sign up:
-1.	Organization name:
+*1.	Organization name:*
 2.	Contact no
 3.	Email
 4.	Address of organization:
