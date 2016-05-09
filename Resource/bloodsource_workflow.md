@@ -5,7 +5,7 @@
 ## Sign up form contents: [* Mark indicates required field]
    1.	Name*
    2.	Email*
-   3.	Mobile number*
+   3.	Mobile number* 
    4.	Address*[District, Upazilla, area ]
    5.	Blood group*
    6.	Gender* 
@@ -52,8 +52,10 @@ Facebook page, linked in, twitter, Share with facebook
 13.	Donated Blood: Date,
 14.	How often do you want to give blood?
 
+## Privacy settings
+1. 	Mobile number show or hide?
 
-Organization sign up:
+## Organization sign up
 1.	Organization name:
 2.	Contact No.
 3.	Email
