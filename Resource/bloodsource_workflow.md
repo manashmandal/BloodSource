@@ -1,6 +1,7 @@
 # Workflow and design guide
 
 ## Suggested domain : `http://www.bloodsource.com.bd`
+## email : 'bloodsource@protonmail.com'
 
 ## Sign up form contents: [* Mark indicates required field]
    1.	Name*
