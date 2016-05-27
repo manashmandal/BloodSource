@@ -13,8 +13,8 @@
    
 ## Homepage Content
 
-| Home 	| About us 	| Sign Up 	| Log in 	| Instructions 	| FAQ 	| Contact Us 	| Donate 	|
-|------	|----------	|---------	|--------	|--------------	|-----	|------------	|--------	|
+| Home 	| About us 	| Sign Up 	| Log in 	| Instructions 	| Contact Us 	| Donate 	|
+|------	|----------	|---------	|--------	|--------------	|------------	|--------	|
 
 | Blood Group 	| District 	| Upazilla 	| Medical Select 	| No. of Bag 	| Search 	|
 |-------------	|----------	|----------	|---------------	|------------	|--------	|
