@@ -19,41 +19,48 @@
     <!-- custom -->
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/search.css">
 
     <script src="js/autocomplete.js"></script>
+    <script src="js/testjquery.js"></script>
 
 </head>
 <body>
 
 
     <div class="container">
-        <h3 class="text-muted">Blood Source</h3>
+        <div class="page-header">
+            <h1>Blood Source</h1>
+        </div>
         <nav>
             <ul class="nav nav-justified">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">How to</a></li>
-                <li><a href="#">Sign Up</a> </li>
+                <li><a href="src/signup.html">Sign Up</a> </li>
                 <li><a href="#">Log In</a> </li>
                 <li><a href="#">About Us</a></li>
             </ul>
         </nav>
-    </div>
+
 
     <!--<div class="input-group ui-widget">-->
         <!--<span class="input-group-addon">$</span>-->
         <!--<input type="text" id="tags" class="form-control" aria-label="Amount (to the nearest dollar)">-->
         <!--<span class="input-group-addon">.00</span>-->
     <!--</div>-->
+    <div id="search_form">
+        <h1 id="search_text">Search</h1>
+        <hr/>
 
-    <div class="form-inline" id="search_criteria">
+    <div class="form-inline">
         <div class="form-group form-group-lg">
-            <div class="dropdown">
+            <div class="dropdown" id="blood_dropdown">
                 <button class="btn btn-default dropdown-toggle btn-lg" type="button" id="bloodgroup_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     Blood Group
                     <span class="caret"></span>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="bloodgroup_dropdown">
-                    <li><a href="#">O+</a></li>
+                <ul class="dropdown-menu" aria-labelledby="bloodgroup_dropdown" id="bloodgroups">
+                    <li id="o+"><a href="#">O+</a></li>
                     <li><a href="#">O-</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a href="#">A+</a></li>
@@ -68,29 +75,41 @@
             </div>
         </div>
 
-        <div class="input-group input-group-lg">
+        <div class="input-group input-group-lg" id="district_inputgroup">
             <span class="input-group-addon" id="district">District</span>
-            <input type="text" class="form-control" placeholder="Enter District" aria-describedby="district">
+            <input type="text" class="form-control" placeholder="Enter District" aria-describedby="district" id="districtinput">
         </div>
 
-        <div class="input-group input-group-lg">
+        <div class="input-group input-group-lg" id="subdistrict_inputgroup">
             <span class="input-group-addon" id="sub_district">Sub District</span>
             <input type="text" class="form-control" placeholder="Enter Sub District" aria-describedby="district">
         </div>
 
-        <div class="btn-group btn-group-lg">
-            <button type="button" class="btn btn-primary btn-default" id="search">Search</button>
+        <div class="btn-group btn-group-lg" id="search_button">
+            <button type="button" class="btn btn-primary btn-default" id="search" onclick="submitForm()">Search</button>
+        </div>
+    </div>
+
         </div>
     </div>
 
 
-    <footer class="footer">
-        <div class="container">
-            <p class="text-muted">
-                &copy BloodSource 2016
-            </p>
-        </div>
-    </footer>
+    <!--<footer class="panel-footer container-fluid" id="footer">-->
+        <!--<div class="row">-->
+            <!--<div class="col-md-10">-->
+                <!--<div class="container">-->
+                    <!--<p class="text-muted">-->
+                        <!--&copy BloodSource 2016-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-2" id="follow">-->
+                <!--<p class="text-muted" id="follow_text">-->
+                    <!--<a href="#">Follow us on Facebook.</a>-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</footer>-->
 
 
 </body>

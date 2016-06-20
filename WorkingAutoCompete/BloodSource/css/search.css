@@ -1,0 +1,38 @@
+#search_form{
+    position: absolute;
+    margin-top: auto;
+    padding-top: 20px;
+    align-content: center;
+}
+
+#blood_dropdown, #district_inputgroup, #search_button, #subdistrict_inputgroup {
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*
+Sign up
+*/
+#inputDistrict, #inputArea, #inputSubDistrict{
+    padding-right: 2px;
+}
+
+#terms{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+#submitButton{
+    margin-left: 40%;
+}
+
+#loginButton{
+    float:left;
+}
+
+#loginForm{
+    margin-left: 20%;
+    margin-top:10%;
+    padding-right:15px;
+}
